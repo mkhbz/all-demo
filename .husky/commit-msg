@@ -1,3 +1,3 @@
 echo '进入格式化程序'
 echo '格式化完毕'
-"commitlint -e $0
+commitlint -e $0
