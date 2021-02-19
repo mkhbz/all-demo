@@ -18,8 +18,23 @@
   ],
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "lint-staged": {
+    "packages/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "packages/**/*.jsx": [
+      "eslint --fix",
+      "git add"
+    ],
+    "packages/**/*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
