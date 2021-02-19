@@ -18,7 +18,7 @@
   ],
   "husky": {
     "hooks": {
-      "commit-msg": "echo $HUSKY_GIT_PARAMS"
+      "commit-msg": "echo 提交的日志是$HUSKY_GIT_PARAMS"
     }
   },
   "devDependencies": {
