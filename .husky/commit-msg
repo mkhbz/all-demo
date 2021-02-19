@@ -1,0 +1,5 @@
+# ...
+npx --no commitlint --edit $1
+# or
+yarn commitlint --edit $1
+echo '格式化完毕'
