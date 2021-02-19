@@ -1,3 +1,4 @@
+// 2为error,0为disabled 1为warning
 module.exports = {
   extends: [
     "@commitlint/config-conventional"
