@@ -1,4 +1,0 @@
-{
-  "packages/**/*.jsx": ["eslint --cache --fix", "git add"]
-  "packages/**/*.js":["eslint --cache --fix", "git add"]
-}
