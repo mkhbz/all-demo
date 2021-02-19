@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClientArgs": [
+    "--no-package-lock"
+  ],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "version": "0.0.0"
+}

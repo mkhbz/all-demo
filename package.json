@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap-lerna": "lerna bootstrap",
+    "init-lerna": "lerna init",
+    "publish-lerna": "lerna publish",
+    "main-start": "cd packages/main && yarn start",
+    "main-build": "cd packages/main && yarn build",
+    "vue-start": "cd packages/vue && yarn start",
+    "vue-build": "cd packages/vue && yarn build"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
