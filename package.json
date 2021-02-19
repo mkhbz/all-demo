@@ -16,7 +16,7 @@
     "hooks": {
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
-  }
+  },
   "private": true,
   "workspaces": [
     "packages/*"
