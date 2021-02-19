@@ -12,15 +12,15 @@
     "vue-start": "cd packages/vue && yarn start",
     "vue-build": "cd packages/vue && yarn build"
   },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
