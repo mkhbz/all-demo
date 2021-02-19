@@ -17,7 +17,7 @@ const BaseLayout = (props) => {
     console.log(props)
     // qiankun的路由跳转
     const qiankunToRouter = (path) => {
-        // console.log(path)
+        console.log(path)
         props.history.push(path)
         // history.pushState(null, path, path) // 没引入路由，所以不能用路由切换
     }

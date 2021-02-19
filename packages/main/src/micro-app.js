@@ -1,10 +1,10 @@
 const routers = [
   // vue的应用
   {
-    name: 'vue',
-    path: '/vue',
+    name: 'qiankun-vue',
+    path: '/home/qiankun-vue',
     entry: 'http://localhost:8081/#/',
-    activeRule: '/#/vue'
+    activeRule: '/#/home/qiankun-vue'
   },
 ]
 //微应用的配置

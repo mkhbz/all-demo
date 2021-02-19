@@ -1,5 +1,6 @@
 
 import RightOne from '@/pages/right/one'
+import Qiankun from '@/pages/qiankun'
 const routes = [
     {
         name: 'home',
@@ -10,7 +11,9 @@ const routes = [
                 path: '/home/right-one',
                 component: RightOne,
                 exact: true
-            }]
+            }
+
+        ]
     }
 ]
 
