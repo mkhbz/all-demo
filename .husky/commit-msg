@@ -2,5 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo '开始检验提交的日志'
-node script/commit.js $1
-# yarn commitlint --edit $1
+node script/commit.js $0 $1 $2
