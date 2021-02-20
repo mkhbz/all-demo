@@ -1,9 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-echo $0
-echo '----------------------'
-echo $1
-echo '---------------------'
-echo process
-echo '---------------------'
-node script/commit.js $0 $1 $2
+# 运行检查的js
+node script/commit.js 
