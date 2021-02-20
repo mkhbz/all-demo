@@ -4,6 +4,6 @@ echo $0
 echo '----------------------'
 echo $1
 echo '---------------------'
-echo process.argv
+echo $process.argv
 echo '---------------------'
 node script/commit.js $0 $1 $2
