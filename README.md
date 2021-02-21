@@ -1,6 +1,7 @@
 # 外壳
 - lerna 管理包
 - eslint 规范代码
+- husky 监听提交代码
 # main
 - npm install webpack webpack-cli
 - 创建webpack.config.js
