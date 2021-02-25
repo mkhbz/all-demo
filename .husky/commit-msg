@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
+echo '即将检查提交日志'
 # 运行检查的js
 node script/commit.js 
