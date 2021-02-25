@@ -7,6 +7,8 @@
     "huskyinstall": "husky install",
     "lerna-bootstrap": "lerna bootstrap",
     "lerna-init": "lerna init",
+    "eslint-test": "eslint packages",
+    "eslint-fix": "eslint packages --fix",
     "publish-lerna": "lerna publish",
     "main-start": "cd packages/main && yarn start",
     "main-build": "cd packages/main && yarn build",

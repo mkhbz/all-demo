@@ -1,3 +1,6 @@
+/* eslint-disable no-undef */
+/* eslint-disable camelcase */
+/* eslint-disable no-underscore-dangle */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
@@ -43,10 +46,9 @@ if (!window.__POWERED_BY_QIANKUN__) {
 
 // 生命周期
 export async function bootstrap() {
-  console.log('[vue] vue app bootstraped');
+  // console.log('123)
 }
 export async function mount(props) {
-  console.log('[vue] props from main framework', props);
   // storeTest(props);
   render(props);
 }
